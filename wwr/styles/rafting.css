@@ -29,16 +29,19 @@ p {
 :root {
     --primary-color: #0F4C5C;
     --secondary-color: #ededed;
-    --accent1-color: #060e7a;
+    --accent1-color: #a0a3d8;
     --accent2-color: #b7dbe6;
     --heading-font: 'Oswald', sans-serif;
     --body-font: 'Noto Sans', sans-serif;
 }
 
 body {
-    font-family: var(--body-font);
-    background-color: var(--secondary-color);
-    color: #222222;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: #f4f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 h2,
@@ -52,14 +55,14 @@ h6 {
 }
 
 h1 {
-    color: #ffffff;
+    color: #242427;
     font-family: var(--heading-font);
 }
 
 main {
-    max-width: 840px;
+    max-width: 900px;
     margin: 0 auto;
-    width: 100%;
+    padding: 2rem;
 }
 
 /* Header Section */
@@ -378,11 +381,14 @@ header {
     border-radius: 8px;
 }
 
-.contact-container h3 {
+.contact-form h2 {
     text-align: center;
     color: #2a6a9e;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
+
+}
+.contact-form label
 
 .form-submit {
     text-align: center;
@@ -485,7 +491,7 @@ header {
 .team-members figcaption {
     margin-top: 0.8rem;
     font-weight: bold;
-    color: #1e4a6e;
+    color: #135d9b;
 }
 
 .team-members em {
