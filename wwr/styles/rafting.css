@@ -1,7 +1,8 @@
 h1 {
-    font-size: 2rem;
-    font-family: "Noto Sans", sans-serif;
+    color: #242427;
+    font-family: var(--heading-font);
 }
+
 
 h2 {
     font-family: "Oswald", sans-serif;
@@ -56,10 +57,6 @@ main {
     padding: 2rem;
 }
 
-h1 {
-    color: #242427;
-    font-family: var(--heading-font);
-}
 
 /* Header Section */
 header {
@@ -306,12 +303,6 @@ header {
 }
 
 /* Contact Page Specific Styles */
-.contact-hero {
-    max-width: 840px;
-    position: relative;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-}
 
 .hero-image {
     width: 100%;
@@ -332,14 +323,6 @@ header {
     text-align: center;
 }
 
-.contact-container {
-    max-width: 840px;
-    margin: 2rem auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    padding: 0 2rem;
-}
 
 .contact-info {
     background-color: var(--accent1-color);
@@ -399,18 +382,7 @@ header {
 
 .form-group input[type="text"],
 .form-group input[type="email"],
-.form-group textarea {
-    width: 100%;
-    padding: 0.7rem;
-    border: 1px solid #2a6a9e;
-    border-radius: 4px;
-    font-family: var(--body-font);
-    background-color: #ffffff;
-}
 
-.form-group textarea {
-    resize: vertical;
-}
 
 .radio-group {
     margin-bottom: 0.5rem;
@@ -472,13 +444,6 @@ header {
     margin: 0;
 }
 
-.team-members img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 50%;
-    transition: transform 0.3s;
-}
 
 .team-members img:hover {
     transform: scale(1.05);
@@ -506,13 +471,6 @@ header {
     font-size: 2rem;
 }
 
-.trip-packages {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin: 1rem auto;
-    max-width: 1000px;
-}
 
 .trip-card {
     background-color: var(--accent1-color);
@@ -547,7 +505,6 @@ header {
     border-collapse: collapse;
 }
 
-.trip-table th,
 .trip-table td {
     padding: 1rem;
     text-align: left;
@@ -608,10 +565,6 @@ footer a:hover {
         text-align: center;
     }
 
-    .nav-links {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
 
     /* Home */
     .hero h1 {
@@ -619,53 +572,17 @@ footer a:hover {
         padding: 1rem;
     }
 
-    .hero article {
-        position: static;
-        width: 100%;
-        margin-top: 1rem;
-    }
-
-    .history img {
-        grid-column: span 1;
-    }
-
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .hero img {
-        height: 40vh;
-    }
-
-    .history-content {
-        flex-direction: column;
-    }
-
-    .image-column {
-        order: -1;
-    }
 
     /* Contact Us */
     .contact-container {
         grid-template-columns: 1fr;
     }
 
-    .team-members {
-        grid-template-columns: 1fr;
-    }
-
-    .team-members img {
-        border-radius: 10px;
-    }
 
     .contact-hero h2 {
         font-size: 1.5rem;
         padding: 0.8rem;
     }
 
-    .trip-packages {
-        grid-template-columns: 1fr;
-
-    }
 
 }
