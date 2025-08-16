@@ -6,6 +6,12 @@ h1 {
 
 h2 {
     font-family: "Oswald", sans-serif;
+    .primary-centered-h2{
+	text-align: center;
+    margin-top: 2rem;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
 }
 
 :root {
@@ -384,9 +390,6 @@ header {
     color: #333333;
 }
 
-.form-group input[type="text"],
-.form-group input[type="email"],
-
 
 .radio-group {
     margin-bottom: 0.5rem;
@@ -467,14 +470,6 @@ header {
 }
 
 /* Trips Page Styles */
-.packages h2,
-.trip-table h2 {
-    text-align: center;
-    margin-top: 2rem;
-    color: var(--primary-color);
-    font-size: 2rem;
-}
-
 
 .trip-card {
     background-color: var(--accent1-color);
